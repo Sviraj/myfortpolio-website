@@ -28,9 +28,9 @@ export default function About() {
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, .NET, MUi, and MsSQL
+          React, .NET, C#, MUi, and MsSQL
         </span>
-        . I am also familiar with Spring Boot and Flutter. I am always looking to
+        . I am also familiar with JavaScript and Java. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
@@ -38,7 +38,7 @@ export default function About() {
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        cricket, watching movies, and playing with my dog. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">IoT and Arduino</span>. I'm also
