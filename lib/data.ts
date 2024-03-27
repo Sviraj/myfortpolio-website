@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Intern Software Engineer",
     location: "Agrithmics (Pvt) Ltd.",
     description:
-      "I worked project that ERP System. In here done Module Implementation,Bulk Handling and real-time transaction handling. Related technologies React, .net, MsSql, RabbitMQ, Reddis, Azure ",
+      "I worked project that ERP System. In here done Module Implementation,Bulk Handling and real-time transaction handling. Related technologies React, .net, C#, MsSql, RabbitMQ, Reddis, Azure ",
     icon: React.createElement(LuGraduationCap),
     date: "2022 Dec- 2023 June",
   },
@@ -104,5 +104,5 @@ export const skillsData = [
   "Express",
   "SpringBoot",
   "Python",
-  "Git",
+  "GitHub",
 ] as const;
