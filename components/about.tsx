@@ -19,8 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Information Technology</span>, I decided to pursue my
+         I decided to pursue my
         passion for programming. In University, I learned coding and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
@@ -30,7 +29,7 @@ export default function About() {
         <span className="font-medium">
           React, .NET, C#, MUi, and MsSQL
         </span>
-        . I am also familiar with JavaScript and Java. I am always looking to
+        . I am also familiar with JavaScript, TypeScript and Java. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
