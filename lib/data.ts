@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/intelligent.jpg";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/iot.jpg";
+import trackerAppimg from "@/public/trackerApp.jpg";
+import redditImg from "@/public/reddit.png";
 
 export const links = [
   {
@@ -62,11 +64,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Location Tracker Mobile Application",
+    description:
+    "Developed Employee Location Tracking Mobile Application with Role base Authentication, real time login-logout tracking.",
+    tags: [".Net 8","Flutter", "Dart", "MsSQL", "Entity Framework", "GoogleMap API"],
+    imageUrl: trackerAppimg,
+    link: '',
+  },
+  {
+    title: "Reddit-Like-Comment Demo page",
+    description:
+    "Developed a Reddit Like comment Demo page using Global state management.",
+    tags: ["React","TypeScript", "Redux", "SCSS", "Vercel"],
+    imageUrl: redditImg,
+    link: 'link',
+  },
+  {
     title: "Intelligent Candidate Ranking System",
     description:
       "Level-4 Research Project. Natural Language Processing based apporoach for Candidate Ranking base on machine learning and data science techniques.",
-    tags: ["Python", "ML", "NLP", "Data Science"],
+    tags: ["Python","Flask", "ML", "NLP", "Data Science","Co-lab"],
     imageUrl: corpcommentImg,
+    link: '',
   },
   {
     title: "LearnX",
@@ -74,6 +93,7 @@ export const projectsData = [
       "LMS designed to effortlessly manage all key aspects of online education. From user-friendly course creation and interactive content delivery to seamless learner assessment and progress tracking.",
     tags: ["React(TS)", "Tailwind", ".NET", "MongoDB", "Redux"],
     imageUrl: rmtdevImg,
+    link: '',
   },
   {
     title: "IoT Project",
@@ -81,17 +101,24 @@ export const projectsData = [
       "Mini IoT project that able to send sensor reading from Aruino Nano to ESP32 throught wireless communication and update real-time database.",
     tags: ["Arduino", "ESP32", "FireBase", "NRf Module", "Wireless communication"],
     imageUrl: wordanalyticsImg,
+    link: '',
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
+  "React",
+  ".NET",
+  "Entity Framework",
+  "Flutter",
+  "Dart",
   "C#",
   "Java",
   "TypeScript",
-  "React",
+  "Azure",
+  "Vercel",
+  "HTML",
+  "CSS",
+  "JavaScript",
   "Next.js",
   "Node.js",
   "Git",
@@ -100,9 +127,8 @@ export const skillsData = [
   "MongoDB",
   "Redux",
   "MySQL",
-  ".NET",
   "Express",
   "SpringBoot",
   "Python",
-  "GitHub",
+  "Flask",
 ] as const;

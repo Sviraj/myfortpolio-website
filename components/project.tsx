@@ -12,6 +12,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  link,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -45,6 +46,7 @@ export default function Project({
                 {tag}
               </li>
             ))}
+            {link ? <a href="https://reddit-comments-sigma.vercel.app/"> Click Here to See</a>: ''}
           </ul>
         </div>
 
