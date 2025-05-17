@@ -107,6 +107,8 @@ export const projectsData = [
 
 export const skillsData = [
   "React",
+  "Angular",
+  "Material UI",
   ".NET",
   "Entity Framework",
   "Flutter",

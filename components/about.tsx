@@ -36,7 +36,7 @@ export default function About() {
         . I am also familiar with C#, JavaScript, TypeScript, Java, Flutter & Dart . I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
-        developer.
+        Engineer.
       </p>
 
       <p>
