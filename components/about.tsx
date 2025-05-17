@@ -22,7 +22,7 @@ export default function About() {
          I decided to pursue my
         passion for programming. In University, I learned coding and learned{" "}
         <span className="font-medium">full-stack web development  specializing in .NET and 
-          React frameworks, as well as mobile application development using Flutter. 
+          React & Angular, as well as mobile application development using Flutter. 
           With hands-on experience in developing web applications, APIs, and mobile 
           solutions, I thrive on solving complex problems and building scalable, 
           efficient software systems</span>.{" "}
@@ -31,9 +31,9 @@ export default function About() {
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, .NET, C#, MUi, and MsSQL
+          React/Angular, .NET, C#, MUi, and MsSQL
         </span>
-        . I am also familiar with JavaScript, TypeScript, Java, Flutter & Dart . I am always looking to
+        . I am also familiar with C#, JavaScript, TypeScript, Java, Flutter & Dart . I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
