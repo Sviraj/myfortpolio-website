@@ -46,8 +46,12 @@ export default function Project({
                 {tag}
               </li>
             ))}
-            {link ? <a href="https://reddit-comments-sigma.vercel.app/"> Click Here to See</a>: ''}
           </ul>
+          {link && (
+            <a href={link} target="_blank" rel="noopener noreferrer" className="mt-4 underline font-medium">
+              View Project &rarr;
+            </a>
+          )}
         </div>
 
         <Image
