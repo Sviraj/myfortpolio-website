@@ -11,8 +11,14 @@ interface CopyButtonProps {
 export default function CopyButton({ textToCopy }: CopyButtonProps) {
   const [isCopied, setIsCopied] = useState(false);
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText(textToCopy);
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(textToCopy);
+    } catch {
+      toast.error("Couldn't copy. Please copy it manually.");
+      return;
+    }
+
     setIsCopied(true);
     toast.success("Copied to clipboard!");
     setTimeout(() => {
@@ -22,6 +28,8 @@ export default function CopyButton({ textToCopy }: CopyButtonProps) {
 
   return (
     <button
+      type="button"
+      aria-label="Copy email address"
       className="ml-2 p-2 bg-gray-200 rounded-full hover:bg-gray-300 dark:bg-white dark:bg-opacity-10 dark:hover:bg-opacity-20 transition-all"
       onClick={handleCopy}
       disabled={isCopied}

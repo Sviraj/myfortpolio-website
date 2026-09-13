@@ -1,10 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/intelligent.jpg";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/iot.jpg";
+import candidateRankingImg from "@/public/intelligent.jpg";
+import learnXImg from "@/public/rmtdev.png";
+import iotImg from "@/public/iot.jpg";
 import trackerAppimg from "@/public/trackerApp.jpg";
 import redditImg from "@/public/reddit.png";
 
@@ -40,7 +39,7 @@ export const experiencesData = [
     title: "Intern Software Engineer",
     location: "Agrithmics (Pvt) Ltd.",
     description: "I contributed to an ERP System project, where my responsibilities included module implementation, bulk data handling, and real-time transaction processing. Technologies used: React, .NET, C#, MS SQL, RabbitMQ, Redis, and Azure.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(CgWorkAlt),
     date: "2022 Dec- 2023 June",
   },
   {
@@ -78,21 +77,21 @@ export const projectsData = [
     title: "Intelligent Candidate Ranking System",
     description: "A Level-4 research project. This system uses a Natural Language Processing (NLP) approach to rank candidates based on machine learning and data science techniques.",
     tags: ["Python","Flask", "ML", "NLP", "Data Science","Co-lab"],
-    imageUrl: corpcommentImg,
+    imageUrl: candidateRankingImg,
     link: '',
   },
   {
     title: "LearnX",
     description: "A Learning Management System (LMS) designed to manage key aspects of online education, from user-friendly course creation and interactive content delivery to seamless learner assessment and progress tracking.",
     tags: ["React(TS)", "Tailwind", ".NET", "MongoDB", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: learnXImg,
     link: '',
   },
   {
     title: "IoT Project",
     description: "A mini IoT project that sends sensor readings from an Arduino Nano to an ESP32 via wireless communication, which then updates a real-time Firebase database.",
     tags: ["Arduino", "ESP32", "FireBase", "NRf Module", "Wireless communication"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: iotImg,
     link: '',
   },
 ] as const;

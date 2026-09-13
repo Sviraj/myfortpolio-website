@@ -14,7 +14,14 @@ const TypingLoop: React.FC<{ text: string; speed?: number }> = ({ text, speed = 
   }, [index, text, speed]);
   
 
-  return <span>{displayedText}</span>;
+  // The full text is always in the HTML for screen readers and search engines;
+  // the animated copy is visual only.
+  return (
+    <>
+      <span className="sr-only">{text}</span>
+      <span aria-hidden="true">{displayedText}</span>
+    </>
+  );
 };
 
 export default TypingLoop;

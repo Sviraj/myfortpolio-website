@@ -69,10 +69,10 @@ export default function Intro() {
           <TypingLoop text={"Sachin"} speed={400}/>.
         </span>
         <br />
-        <span className="font-bold">I'm a full-stack developer</span> of{" "}
+        <span className="font-bold">I'm a full-stack developer</span> who{" "}
         <span className="font-bold">graduated from</span> UoM Faculty of IT. I
-        enjoy building <span className="italic">web , mobile apps & sites</span>
-        .
+        enjoy building{" "}
+        <span className="italic">web apps, mobile apps & sites</span>.
       </motion.h1>
 
       <motion.div
@@ -108,6 +108,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://linkedin.com/in/sachinviraj"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <BsLinkedin />
         </a>
@@ -116,6 +117,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/Sviraj"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FaGithubSquare />
         </a>
@@ -124,6 +126,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.hackerrank.com/profile/sachinviraj48"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FaHackerrank />
         </a>
@@ -132,6 +135,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.sololearn.com/en/profile/18384475"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <BsSnow />
         </a>
