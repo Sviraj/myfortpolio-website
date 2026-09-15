@@ -11,14 +11,14 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[42rem] text-center leading-8 text-gray-700 sm:mb-40 scroll-mt-28 dark:text-white/70 [&_.font-medium]:text-gray-950 dark:[&_.font-medium]:text-white"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
+      <p className="mb-4">
          I decided to pursue my
         passion for programming. In University, I learned coding and learned{" "}
         <span className="font-medium">full-stack web development  specializing in .NET and 
@@ -33,10 +33,11 @@ export default function About() {
         <span className="font-medium">
           React/Angular, .NET, C#, MUi, and MsSQL
         </span>
-        . I am also familiar with C#, JavaScript, TypeScript, Java, Flutter & Dart . I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        Engineer.
+
+        . I am also familiar with JavaScript, TypeScript, Java, Flutter & Dart.
+        I am always looking to learn new technologies. I am currently looking
+        for a <span className="font-medium">full-time position</span> as a
+        software engineer.
       </p>
 
       <p>

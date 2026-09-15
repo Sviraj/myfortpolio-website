@@ -30,7 +30,7 @@ export default function CopyButton({ textToCopy }: CopyButtonProps) {
     <button
       type="button"
       aria-label="Copy email address"
-      className="ml-2 p-2 bg-gray-200 rounded-full hover:bg-gray-300 dark:bg-white dark:bg-opacity-10 dark:hover:bg-opacity-20 transition-all"
+      className="inline-flex h-7 min-w-[1.75rem] items-center justify-center gap-1 px-2 align-middle text-xs font-medium text-gray-700 bg-gray-200 rounded-full hover:bg-gray-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 disabled:cursor-default dark:text-white/80 dark:bg-white/10 dark:hover:bg-white/20 dark:focus-visible:outline-white transition-colors"
       onClick={handleCopy}
       disabled={isCopied}
     >
