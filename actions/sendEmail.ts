@@ -14,6 +14,7 @@ export const sendEmail = async (formData: FormData) => {
   console.log("data", senderEmail);
 
   // simple server-side validation
+  // this is a comment for testing the commit message
   if (!validateString(senderEmail, 500)) {
     return {
       error: "Invalid sender email",
