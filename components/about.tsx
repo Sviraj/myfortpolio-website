@@ -19,30 +19,32 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Information Technology</span>, I decided to pursue my
+         I decided to pursue my
         passion for programming. In University, I learned coding and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+        <span className="font-medium">full-stack web development  specializing in .NET and 
+          React & Angular, as well as mobile application development using Flutter. 
+          With hands-on experience in developing web applications, APIs, and mobile 
+          solutions, I thrive on solving complex problems and building scalable, 
+          efficient software systems</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, .NET, MUi, and MsSQL
+          React/Angular, .NET, C#, MUi, and MsSQL
         </span>
-        . I am also familiar with Spring Boot and Flutter. I am always looking to
+        . I am also familiar with C#, JavaScript, TypeScript, Java, Flutter & Dart . I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
-        developer.
+        Engineer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        <span className="italic">I aim to create impactful software solutions </span>that drive innovation 
+        and efficiency. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">IoT and Arduino</span>. I'm also
-        learning how to play the guitar.
+        <span className="font-medium">Azure as Cloud Computing</span>.
       </p>
     </motion.section>
   );

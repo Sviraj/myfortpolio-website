@@ -7,9 +7,11 @@ import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
+import CopyButton from "./copy-btn";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
+  const email = "sachinviraj1998@gmail.com";
 
   return (
     <motion.section
@@ -33,16 +35,18 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:example@gmail.com">
-          sachinviraj48@gmail.com
+        <a className="underline" href={`mailto:${email}`}>
+          {email}
         </a>{" "}
-        or through this form.
+        <CopyButton textToCopy={email} /> or through this form.
       </p>
 
       <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
+
+          console.log('form data', formData);
 
           if (error) {
             toast.error(error);

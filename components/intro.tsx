@@ -4,12 +4,13 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { BsArrowRight, BsLinkedin, BsSnow } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaGithubSquare, FaHackerrank } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import myImage from "@/public/pic.png";
+import TypingLoop from "./typingloop";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -33,7 +34,7 @@ export default function Intro() {
           >
             <Image
               src={myImage}
-              alt="Ricardo portrait"
+              alt="Sachin portrait"
               width="192"
               height="192"
               quality="95"
@@ -63,10 +64,15 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Sachin.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> of{" "}
-        <span className="font-bold">undergraduated</span> UoM. I enjoy
-        building <span className="italic">sites & apps</span>.
+        <span className="font-bold">
+          Hello, I'm{" "}
+          <TypingLoop text={"Sachin"} speed={400}/>.
+        </span>
+        <br />
+        <span className="font-bold">I'm a full-stack developer</span> of{" "}
+        <span className="font-bold">graduated from</span> UoM Faculty of IT. I
+        enjoy building <span className="italic">web , mobile apps & sites</span>
+        .
       </motion.h1>
 
       <motion.div
@@ -91,7 +97,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/Sachin Viraj - CV.pdf"
           download
         >
           Download CV{" "}
@@ -112,6 +118,22 @@ export default function Intro() {
           target="_blank"
         >
           <FaGithubSquare />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://www.hackerrank.com/profile/sachinviraj48"
+          target="_blank"
+        >
+          <FaHackerrank />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://www.sololearn.com/en/profile/18384475"
+          target="_blank"
+        >
+          <BsSnow />
         </a>
       </motion.div>
     </section>
